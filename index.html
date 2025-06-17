@@ -1,1 +1,137 @@
-Riboscope Bio. Coming soon
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Riboscope Bio</title>
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap"
+              rel="stylesheet">
+        <link rel="icon"
+              type="image/png"
+              href="/images/favicon/favicon-96x96.png"
+              sizes="96x96" />
+        <link rel="icon" type="image/svg+xml" href="/images/favicon/favicon.svg" />
+        <link rel="shortcut icon" href="/images/favicon/favicon.ico" />
+        <link rel="apple-touch-icon"
+              sizes="180x180"
+              href="/images/favicon/apple-touch-icon.png" />
+        <link rel="manifest" href="/images/favicon/site.webmanifest" />
+        <meta property="og:title" content="Riboscope Bio" />
+        <meta property="og:description" content="Coming soon." />
+        <meta property="og:image"
+              content="https://riboscope.bio/images/riboscope-bio-preview.png" />
+        <meta property="og:url" content="https://riboscope.bio/" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <style>
+    body {
+      min-height: 100vh;
+      margin: 0;
+      padding: 0;
+      font-family: 'Lato', Arial, sans-serif;
+      background: linear-gradient(135deg, #19678a, #2f7fa5, #235c66, #102c3c, #364966, #19678a);
+      background-size: 400% 400%;
+      animation: gradientFlow 20s ease-in-out infinite;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .center-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+    .logo-title-bg {
+      background: #f7fafc;
+      border-radius: 2em;
+      padding: 2em 3em;
+      box-shadow: 0 4px 24px rgba(30,60,90,0.10);
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-bottom: 0;
+      min-width: 340px;
+      gap: 2.5rem;
+    }
+    .logo-img {
+      height: 8rem;
+      width: 8rem;
+      object-fit: contain;
+      display: block;
+      vertical-align: middle;
+      flex-shrink: 0;
+    }
+    .logo-title-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 0.5em;
+    }
+    .logo-title-row {
+      display: flex;
+      align-items: center;
+      gap: 0;
+      justify-content: flex-start;
+      height: auto;
+    }
+    h1 {
+      font-size: 3.5rem;
+      font-weight: 700;
+      letter-spacing: 2px;
+      color: #163f4d;
+      text-shadow: 0 1px 2px rgba(255,255,255,0.2);
+      margin-bottom: 0;
+      text-align: left;
+      display: block;
+      align-items: center;
+      height: auto;
+    }
+    .coming-soon {
+      font-size: 1.7rem;
+      color: #2d3e50;
+      background: none;
+      padding: 0.5em 0 0 0;
+      border-radius: 0;
+      font-weight: 500;
+      letter-spacing: 1px;
+      text-align: left;
+      box-shadow: none;
+      margin-top: 0.5em;
+    }
+    @keyframes gradientFlow {
+      0% {
+        background-position: 0% 50%;
+      }
+      25% {
+        background-position: 50% 100%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      75% {
+        background-position: 50% 0%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+        </style>
+    </head>
+    <body>
+        <div class="center-container">
+            <div class="logo-title-bg">
+                <img src="images/riboscope-bio-logo.png"
+                     alt="Riboscope Bio Logo"
+                     class="logo-img" />
+                <div class="logo-title-content">
+                    <div class="logo-title-row">
+                        <h1>Riboscope Bio</h1>
+                    </div>
+                    <div class="coming-soon">Coming soon</div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
